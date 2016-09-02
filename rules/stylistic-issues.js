@@ -3,7 +3,7 @@ module.exports = {
     'array-bracket-spacing': 0,       // http://eslint.org/docs/rules/array-bracket-spacing
     'block-spacing': [2, 'always'],   // http://eslint.org/docs/rules/block-spacing
     'brace-style': 2,                 // http://eslint.org/docs/rules/brace-style
-    camelcase: [                    // http://eslint.org/docs/rules/camelcase
+    camelcase: [                      // http://eslint.org/docs/rules/camelcase
       2, {
         properties: 'always'
       }
@@ -20,11 +20,12 @@ module.exports = {
     ],
     'consistent-this': [2, 'self'],   // http://eslint.org/docs/rules/consistent-this
     'eol-last': 2,                    // http://eslint.org/docs/rules/eol-last
+    'func-call-spacing': 0,           // http://eslint.org/docs/rules/func-call-spacing
     'func-names': 0,                  // http://eslint.org/docs/rules/func-names
     'func-style': 0,                  // http://eslint.org/docs/rules/func-style
     'id-length': 0,                   // http://eslint.org/docs/rules/id-length,
     'id-match': 0,                    // http://eslint.org/docs/rules/id-match
-    indent: [                       // http://eslint.org/docs/rules/indent
+    indent: [                         // http://eslint.org/docs/rules/indent
       2,
       2,
       {
@@ -50,6 +51,7 @@ module.exports = {
         max: 2
       }
     ],
+    'multiline-ternary': 0,           // http://eslint.org/docs/rules/multiline-ternary
     'new-cap': 2,                     // http://eslint.org/docs/rules/new-cap
     'new-parens': 2,                  // http://eslint.org/docs/rules/new-parens
     'newline-after-var': 0,           // http://eslint.org/docs/rules/newline-after-var
@@ -74,7 +76,7 @@ module.exports = {
     'no-new-object': 2,               // http://eslint.org/docs/rules/no-new-object
     'no-plusplus': 0,                 // http://eslint.org/docs/rules/no-plusplus
     'no-restricted-syntax': 0,        // http://eslint.org/docs/rules/no-restricted-syntax
-    'no-spaced-func': 2,              // http://eslint.org/docs/rules/no-spaced-func
+    'no-tabs': 0,                     // http://eslint.org/docs/rules/no-tabs
     'no-ternary': 0,                  // http://eslint.org/docs/rules/no-ternary
     'no-trailing-spaces': [           // http://eslint.org/docs/rules/no-trailing-spaces
       2,
@@ -98,10 +100,11 @@ module.exports = {
     ],
     'padded-blocks': 0,               // http://eslint.org/docs/rules/padded-blocks
     'quote-props': [2, 'as-needed'],  // http://eslint.org/docs/rules/quote-props
-    quotes: [2, 'single'],          // http://eslint.org/docs/rules/quotes
+    quotes: [2, 'single'],            // http://eslint.org/docs/rules/quotes
     'require-jsdoc': 0,               // http://eslint.org/docs/rules/require-jsdoc
     'semi-spacing': 2,                // http://eslint.org/docs/rules/semi-spacing
-    semi: [2, 'always'],            // http://eslint.org/docs/rules/semi.html
+    semi: [2, 'always'],              // http://eslint.org/docs/rules/semi.html
+    'sort-keys': 0,                   // http://eslint.org/docs/rules/sort-keys
     'sort-vars': 0,                   // http://eslint.org/docs/rules/sort-vars
     'space-before-blocks': 0,         // http://eslint.org/docs/rules/space-before-blocks
     'space-before-function-paren': 0, // http://eslint.org/docs/rules/space-before-function-paren

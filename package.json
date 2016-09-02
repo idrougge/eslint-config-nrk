@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nrk",
-  "version": "3.0.0",
+  "version": "4.0.0-RC1",
   "description": "A shared ESLint configuration for and by JavaScript developers at NRK.",
   "main": "base.js",
   "scripts": {
@@ -25,16 +25,16 @@
   },
   "homepage": "https://github.com/nrkno/eslint-config-nrk#readme",
   "peerDependencies": {
-    "eslint": "^3.0.1"
+    "eslint": "^3.4.0"
   },
   "devDependencies": {
-    "babel-register": "6.9.0",
-    "babel-preset-es2015": "6.9.0",
+    "babel-preset-es2015": "6.14.0",
+    "babel-register": "6.14.0",
     "chai": "3.5.0",
-    "coveralls": "2.11.11",
-    "eslint": "3.0.1",
+    "coveralls": "2.11.12",
+    "eslint": "3.4.0",
     "istanbul": "1.0.0-alpha.2",
-    "mocha": "2.5.3",
+    "mocha": "3.0.2",
     "mocha-lcov-reporter": "1.2.0",
     "pre-commit": "1.1.3"
   }

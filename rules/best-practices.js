@@ -1,10 +1,12 @@
 module.exports = {
   rules: {
     'accessor-pairs': 2,              // http://eslint.org/docs/rules/accessor-pairs
+    'array-callback-return': 2,       // http://eslint.org/docs/rules/array-callback-return
     'block-scoped-var': 2,            // http://eslint.org/docs/rules/block-scoped-var
-    complexity: [2, 9],             // http://eslint.org/docs/rules/complexity
+    'class-methods-use-this': 0,      // http://eslint.org/docs/rules/class-methods-use-this
+    complexity: [2, 9],               // http://eslint.org/docs/rules/complexity
     'consistent-return': 2,           // http://eslint.org/docs/rules/consistent-return
-    curly: 2,                       // http://eslint.org/docs/rules/curly
+    curly: 2,                         // http://eslint.org/docs/rules/curly
     'default-case': 2,                // http://eslint.org/docs/rules/default-case
     'dot-notation': [                 // http://eslint.org/docs/rules/dot-notation
       2, {
@@ -12,7 +14,7 @@ module.exports = {
       }
     ],
     'dot-location': 0,                // http://eslint.org/docs/rules/dot-location
-    eqeqeq: 2,                      // http://eslint.org/docs/rules/eqeqeq
+    eqeqeq: 2,                        // http://eslint.org/docs/rules/eqeqeq
     'guard-for-in': 2,                // http://eslint.org/docs/rules/guard-for-in
     'no-alert': 2,                    // http://eslint.org/docs/rules/no-alert
     'no-caller': 2,                   // http://eslint.org/docs/rules/no-caller
@@ -27,6 +29,7 @@ module.exports = {
     'no-extra-bind': 2,               // http://eslint.org/docs/rules/no-extra-bind
     'no-fallthrough': 2,              // http://eslint.org/docs/rules/no-fallthrough
     'no-floating-decimal': 2,         // http://eslint.org/docs/rules/no-floating-decimal
+    'no-global-assign': 2,            // http://eslint.org/docs/rules/no-global-assign
     'no-invalid-this': 2,             // http://eslint.org/docs/rules/no-invalid-this
     'no-implicit-coercion': [         // http://eslint.org/docs/rules/no-implicit-coercion
       2, {
@@ -43,7 +46,6 @@ module.exports = {
     'no-magic-numbers': 0,            // http://eslint.org/docs/rules/no-magic-numbers
     'no-multi-spaces': 2,             // http://eslint.org/docs/rules/no-multi-spaces
     'no-multi-str': 2,                // http://eslint.org/docs/rules/no-multi-str
-    'no-native-reassign': 2,          // http://eslint.org/docs/rules/no-native-reassign
     'no-new': 2,                      // http://eslint.org/docs/rules/no-new
     'no-new-func': 2,                 // http://eslint.org/docs/rules/no-new-func
     'no-new-wrappers': 2,             // http://eslint.org/docs/rules/no-new-wrappers

@@ -19,6 +19,7 @@ module.exports = {
     'prefer-spread': 2,               // http://eslint.org/docs/rules/prefer-spread
     'prefer-reflect': 0,              // http://eslint.org/docs/rules/prefer-reflect
     'prefer-template': 2,             // http://eslint.org/docs/rules/prefer-template
-    'require-yield': 0                // http://eslint.org/docs/rules/require-yield
+    'require-yield': 0,               // http://eslint.org/docs/rules/require-yield
+    'symbol-description': 2           // http://eslint.org/docs/rules/symbol-description
   }
 };
