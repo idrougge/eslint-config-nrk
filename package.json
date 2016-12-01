@@ -8,7 +8,8 @@
     "coveralls": "npm run test-travis -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
     "lint": "eslint .",
     "test": "mocha --require babel-register test/**/*.spec.js",
-    "test-travis": "istanbul cover _mocha -- --require babel-register -R spec ./test/**/*.spec.js"
+    "test-travis": "istanbul cover _mocha -- --require babel-register -R spec ./test/**/*.spec.js",
+    "diff": "node ./bin/diff.js && echo '\nnpm update eslint to get latest rules'"
   },
   "pre-commit": [
     "test",
@@ -33,7 +34,9 @@
     "chai": "3.5.0",
     "coveralls": "2.11.12",
     "eslint": "3.4.0",
+    "eslint-plugin-react": "^6.7.1",
     "istanbul": "1.0.0-alpha.2",
+    "lodash.difference": "^4.5.0",
     "mocha": "3.0.2",
     "mocha-lcov-reporter": "1.2.0",
     "pre-commit": "1.1.3"
