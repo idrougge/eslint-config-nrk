@@ -23,6 +23,7 @@ module.exports = {
     'prefer-reflect': 0,              // http://eslint.org/docs/rules/prefer-reflect
     'prefer-template': 2,             // http://eslint.org/docs/rules/prefer-template
     'require-yield': 0,               // http://eslint.org/docs/rules/require-yield
+    'rest-spread-spacing': 0,         // http://eslint.org/docs/rules/rest-spread-spacing
     'symbol-description': 2           // http://eslint.org/docs/rules/symbol-description
   }
 };
