@@ -12,6 +12,7 @@ module.exports = {
     'no-duplicate-imports': 1,        // http://eslint.org/docs/rules/no-duplicate-imports
     'no-new-symbol': 2,               // http://eslint.org/docs/rules/no-new-symbol
     'no-this-before-super': 2,        // http://eslint.org/docs/rules/no-this-before-super
+    'no-useless-computed-key': 2,     // http://eslint.org/docs/rules/no-useless-computed-key
     'no-var': 2,                      // http://eslint.org/docs/rules/no-var
     'object-shorthand': 1,            // http://eslint.org/docs/rules/object-shorthand
     'prefer-arrow-callback': 2,       // http://eslint.org/docs/rules/prefer-arrow-callback
