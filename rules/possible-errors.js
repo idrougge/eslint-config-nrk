@@ -29,6 +29,7 @@ module.exports = {
     'no-sparse-arrays': 2,            // http://eslint.org/docs/rules/no-sparse-arrays
     'no-template-curly-in-string': 2, // http://eslint.org/docs/rules/no-template-curly-in-string
     'no-unreachable': 2,              // http://eslint.org/docs/rules/no-unreachable
+    'no-unsafe-finally': 2,           // http://eslint.org/docs/rules/no-unsafe-finally
     'no-unsafe-negation': 2,          // http://eslint.org/docs/rules/no-unsafe-negation
     'use-isnan': 2,                   // http://eslint.org/docs/rules/use-isnan
     'valid-jsdoc': 2,                 // http://eslint.org/docs/rules/valid-jsdoc
