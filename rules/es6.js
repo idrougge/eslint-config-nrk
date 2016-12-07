@@ -14,6 +14,7 @@ module.exports = {
     'no-this-before-super': 2,        // http://eslint.org/docs/rules/no-this-before-super
     'no-useless-computed-key': 2,     // http://eslint.org/docs/rules/no-useless-computed-key
     'no-useless-constructor': 2,      // http://eslint.org/docs/rules/no-useless-constructor
+    'no-useless-rename': 2,           // http://eslint.org/docs/rules/no-useless-rename
     'no-var': 2,                      // http://eslint.org/docs/rules/no-var
     'object-shorthand': 1,            // http://eslint.org/docs/rules/object-shorthand
     'prefer-arrow-callback': 2,       // http://eslint.org/docs/rules/prefer-arrow-callback
