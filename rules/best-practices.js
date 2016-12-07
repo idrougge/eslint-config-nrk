@@ -40,6 +40,7 @@ module.exports = {
         string: true
       }
     ],
+    'no-implicit-globals': 2,         // http://eslint.org/docs/rules/no-implicit-globals
     'no-implied-eval': 2,             // http://eslint.org/docs/rules/no-implied-eval
     'no-iterator': 2,                 // http://eslint.org/docs/rules/no-iterator
     'no-labels': 2,                   // http://eslint.org/docs/rules/no-labels
