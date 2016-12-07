@@ -23,6 +23,7 @@ module.exports = {
 
     'no-empty-pattern': 2,            // http://eslint.org/docs/rules/no-empty-pattern
     'no-else-return': 2,              // http://eslint.org/docs/rules/no-else-return
+    'no-empty-function': 1,           // http://eslint.org/docs/rules/no-empty-function
     'no-eq-null': 2,                  // http://eslint.org/docs/rules/no-eq-null
     'no-eval': 2,                     // http://eslint.org/docs/rules/no-eval
     'no-extend-native': 2,            // http://eslint.org/docs/rules/no-extend-native
