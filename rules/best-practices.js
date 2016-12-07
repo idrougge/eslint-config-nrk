@@ -28,6 +28,7 @@ module.exports = {
     'no-eval': 2,                     // http://eslint.org/docs/rules/no-eval
     'no-extend-native': 2,            // http://eslint.org/docs/rules/no-extend-native
     'no-extra-bind': 2,               // http://eslint.org/docs/rules/no-extra-bind
+    'no-extra-label': 2,              // http://eslint.org/docs/rules/no-extra-label
     'no-fallthrough': 2,              // http://eslint.org/docs/rules/no-fallthrough
     'no-floating-decimal': 2,         // http://eslint.org/docs/rules/no-floating-decimal
     'no-global-assign': 2,            // http://eslint.org/docs/rules/no-global-assign
