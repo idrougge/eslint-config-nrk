@@ -59,6 +59,7 @@ module.exports = {
     'no-proto': 2,                    // http://eslint.org/docs/rules/no-proto
     'no-redeclare': 2,                // http://eslint.org/docs/rules/no-redeclare
     'no-return-assign': 2,            // http://eslint.org/docs/rules/no-return-assign
+    'no-return-await': 2,             // http://eslint.org/docs/rules/no-return-await
     'no-script-url': 2,               // http://eslint.org/docs/rules/no-script-url
     'no-self-assign': 2,              // http://eslint.org/docs/rules/no-self-assign
     'no-self-compare': 2,             // http://eslint.org/docs/rules/no-self-compare
