@@ -75,6 +75,7 @@ module.exports = {
     'no-useless-call': 2,             // http://eslint.org/docs/rules/no-useless-call
     'no-useless-concat': 2,           // http://eslint.org/docs/rules/no-useless-concat
     'no-useless-escape': 2,           // http://eslint.org/docs/rules/no-useless-escape
+    'no-useless-return': 2,           // http://eslint.org/docs/rules/no-useless-return
     'no-void': 2,                     // http://eslint.org/docs/rules/no-void
     'no-warning-comments': 2,         // http://eslint.org/docs/rules/no-warning-comments
     'no-with': 2,                     // http://eslint.org/docs/rules/no-with
