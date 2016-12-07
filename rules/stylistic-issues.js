@@ -40,7 +40,7 @@ module.exports = {
     ],
     'keyword-spacing': 0,             // http://eslint.org/docs/rules/keyword-spacing
     'linebreak-style': [2, 'unix'],   // http://eslint.org/docs/rules/linebreak-style
-    'lines-around-comment': 2,        // http://eslint.org/docs/rules/lines-around-comment
+    'lines-around-comment': 0,        // http://eslint.org/docs/rules/lines-around-comment
     'max-depth': [2, 4],              // http://eslint.org/docs/rules/max-depth
     'max-len': [0, 80],               // http://eslint.org/docs/rules/max-len
     'max-nested-callbacks': [2, 3],   // http://eslint.org/docs/rules/max-nested-callbacks
