@@ -80,6 +80,7 @@ module.exports = {
     'no-warning-comments': 2,         // http://eslint.org/docs/rules/no-warning-comments
     'no-with': 2,                     // http://eslint.org/docs/rules/no-with
     radix: 2,                         // http://eslint.org/docs/rules/radix
+    'require-await': 2,               // http://eslint.org/docs/rules/require-await
     'vars-on-top': 0,                 // http://eslint.org/docs/rules/vars-on-top
     'wrap-iife': [2, 'any'],          // http://eslint.org/docs/rules/wrap-iife
     yoda: 2,                          // http://eslint.org/docs/rules/yoda
