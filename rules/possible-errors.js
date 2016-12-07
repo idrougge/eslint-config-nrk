@@ -24,6 +24,7 @@ module.exports = {
     'no-invalid-regexp': 2,           // http://eslint.org/docs/rules/no-invalid-regexp
     'no-irregular-whitespace': 2,     // http://eslint.org/docs/rules/no-irregular-whitespace
     'no-obj-calls': 2,                // http://eslint.org/docs/rules/no-obj-calls
+    'no-prototype-builtins': 1,       // http://eslint.org/docs/rules/no-prototype-builtins
     'no-regex-spaces': 2,             // http://eslint.org/docs/rules/no-regex-spaces
     'no-sparse-arrays': 2,            // http://eslint.org/docs/rules/no-sparse-arrays
     'no-template-curly-in-string': 2, // http://eslint.org/docs/rules/no-template-curly-in-string
