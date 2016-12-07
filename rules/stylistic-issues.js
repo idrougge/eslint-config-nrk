@@ -89,15 +89,7 @@ module.exports = {
     'object-curly-spacing': 0,        // http://eslint.org/docs/rules/object-curly-spacing
     'one-var': 0,                     // http://eslint.org/docs/rules/one-var
     'operator-assignment': 0,         // http://eslint.org/docs/rules/operator-assignment
-    'operator-linebreak': [           // http://eslint.org/docs/rules/operator-linebreak
-      2,
-      'before',
-      {
-        overrides: {
-          '?': 'after'
-        }
-      }
-    ],
+    'operator-linebreak': 0,          // http://eslint.org/docs/rules/operator-linebreak
     'padded-blocks': 0,               // http://eslint.org/docs/rules/padded-blocks
     'quote-props': [2, 'as-needed'],  // http://eslint.org/docs/rules/quote-props
     quotes: [2, 'single'],            // http://eslint.org/docs/rules/quotes
