@@ -24,6 +24,10 @@ module.exports = {
     'prefer-template': 2,             // http://eslint.org/docs/rules/prefer-template
     'require-yield': 0,               // http://eslint.org/docs/rules/require-yield
     'rest-spread-spacing': 0,         // http://eslint.org/docs/rules/rest-spread-spacing
-    'symbol-description': 2           // http://eslint.org/docs/rules/symbol-description
+    'symbol-description': 2,          // http://eslint.org/docs/rules/symbol-description
+    'yield-star-spacing': [           // http://eslint.org/docs/rules/yield-star-spacing
+      2,
+      'after'
+    ]
   }
 };
