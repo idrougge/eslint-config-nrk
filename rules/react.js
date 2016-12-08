@@ -3,6 +3,7 @@ module.exports = {
     'react'
   ],
   rules: {
+    'react/no-array-index-key': 2,                         // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-array-index-key.md
     'react/display-name': 0,                               // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
     'react/forbid-component-props': 0,                     // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-component-props.md
     'react/forbid-prop-types': 0,                          // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
