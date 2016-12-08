@@ -21,6 +21,7 @@ module.exports = {
     'prefer-arrow-callback': 2,       // http://eslint.org/docs/rules/prefer-arrow-callback
     'prefer-const': 2,                // http://eslint.org/docs/rules/prefer-const
     'prefer-numeric-literals': 0,     // http://eslint.org/docs/rules/prefer-numeric-literals
+    'prefer-rest-params': 2,          // http://eslint.org/docs/rules/prefer-rest-params
     'prefer-spread': 2,               // http://eslint.org/docs/rules/prefer-spread
     'prefer-reflect': 0,              // http://eslint.org/docs/rules/prefer-reflect
     'prefer-template': 2,             // http://eslint.org/docs/rules/prefer-template
