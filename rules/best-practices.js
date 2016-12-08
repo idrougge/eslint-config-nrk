@@ -58,6 +58,7 @@ module.exports = {
     'no-process-env': 1,              // http://eslint.org/docs/rules/no-process-env
     'no-proto': 2,                    // http://eslint.org/docs/rules/no-proto
     'no-redeclare': 2,                // http://eslint.org/docs/rules/no-redeclare
+    'no-restricted-properties': 0,    // http://eslint.org/docs/rules/no-restricted-properties
     'no-return-assign': 2,            // http://eslint.org/docs/rules/no-return-assign
     'no-return-await': 2,             // http://eslint.org/docs/rules/no-return-await
     'no-script-url': 2,               // http://eslint.org/docs/rules/no-script-url
