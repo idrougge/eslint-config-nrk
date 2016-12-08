@@ -8,7 +8,7 @@ module.exports = {
         properties: 'always'
       }
     ],
-    'capitalised-comments': 0,        // http://eslint.org/docs/rules/capitalised-comments
+    'capitalized-comments': 0,        // http://eslint.org/docs/rules/capitalized-comments
     'comma-spacing': [                // http://eslint.org/docs/rules/comma-spacing
       2, {
         before: false,
