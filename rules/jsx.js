@@ -10,6 +10,7 @@ module.exports = {
     'react/jsx-curly-spacing': [2, 'never'],               // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
     'react/jsx-equals-spacing': [2, 'never'],              // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md
     'react/jsx-filename-extension': 0,                     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
+    'react/jsx-first-prop-new-line': 0,                    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-first-prop-new-line.md
     'jsx-first-prop-new-line': 0,                          // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-first-prop-new-line.md
     'react/jsx-handler-names': 1,                          // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
     'react/jsx-indent': [2, 2],                            // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
@@ -33,6 +34,7 @@ module.exports = {
     'react/jsx-pascal-case': 2,                            // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md
     'react/jsx-sort-props': 0,                             // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
     'react/jsx-space-before-closing': [2, 'always'],       // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
+    'react/jsx-tag-spacing': 0,                            // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-tag-spacing.md
     'react/jsx-uses-react': 2,                             // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
     'react/jsx-uses-vars': 2,                              // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md
     'react/jsx-wrap-multilines': 2,                        // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-wrap-multilines.md

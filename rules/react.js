@@ -29,6 +29,7 @@ module.exports = {
     'react/prefer-stateless-function': 0,                  // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
     'react/prop-types': 2,                                 // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
     'react/react-in-jsx-scope': 2,                         // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
+    'react/require-default-props': 0,                      // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-default-props.md
     'react/require-optimization': 0,                       // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-optimization.md
     'react/require-render-return': 2,                      // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-render-return.md
     'react/self-closing-comp': 2,                          // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md
