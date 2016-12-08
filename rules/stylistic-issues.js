@@ -8,6 +8,7 @@ module.exports = {
         properties: 'always'
       }
     ],
+    'capitalised-comments': 0,        // http://eslint.org/docs/rules/capitalised-comments
     'comma-spacing': [                // http://eslint.org/docs/rules/comma-spacing
       2, {
         before: false,
@@ -21,8 +22,10 @@ module.exports = {
     'consistent-this': [2, 'self'],   // http://eslint.org/docs/rules/consistent-this
     'eol-last': 2,                    // http://eslint.org/docs/rules/eol-last
     'func-call-spacing': 0,           // http://eslint.org/docs/rules/func-call-spacing
+    'func-name-matching': 0,          // http://eslint.org/docs/rules/func-name-matching
     'func-names': 0,                  // http://eslint.org/docs/rules/func-names
     'func-style': 0,                  // http://eslint.org/docs/rules/func-style
+    'id-blacklist': 0,                // http://eslint.org/docs/rules/id-blacklist
     'id-length': 0,                   // http://eslint.org/docs/rules/id-length,
     'id-match': 0,                    // http://eslint.org/docs/rules/id-match
     indent: [                         // http://eslint.org/docs/rules/indent
@@ -39,6 +42,7 @@ module.exports = {
       }
     ],
     'keyword-spacing': 0,             // http://eslint.org/docs/rules/keyword-spacing
+    'line-comment-position': 0,       // http://eslint.org/docs/rules/line-comment-position
     'linebreak-style': [2, 'unix'],   // http://eslint.org/docs/rules/linebreak-style
     'lines-around-comment': 0,        // http://eslint.org/docs/rules/lines-around-comment
     'max-depth': [2, 4],              // http://eslint.org/docs/rules/max-depth
@@ -88,6 +92,7 @@ module.exports = {
     'no-unneeded-ternary': 2,         // http://eslint.org/docs/rules/no-unneeded-ternary
     'no-whitespace-before-property': 2, // http://eslint.org/docs/rules/no-whitespace-before-property
     'object-curly-spacing': 0,        // http://eslint.org/docs/rules/object-curly-spacing
+    'one-var-declaration-per-line': 0, // http://eslint.org/docs/rules/one-var-declaration-per-line
     'one-var': 0,                     // http://eslint.org/docs/rules/one-var
     'operator-assignment': 0,         // http://eslint.org/docs/rules/operator-assignment
     'operator-linebreak': 0,          // http://eslint.org/docs/rules/operator-linebreak
@@ -105,6 +110,7 @@ module.exports = {
     'space-infix-ops': 0,             // http://eslint.org/docs/rules/space-infix-ops
     'space-unary-ops': 0,             // http://eslint.org/docs/rules/space-unary-ops
     'spaced-comment': 0,              // http://eslint.org/docs/rules/spaced-comment
+    'unicode-bom': 0,                 // http://eslint.org/docs/rules/unicode-bom
     'wrap-regex': 0,                  // http://eslint.org/docs/rules/wrap-regex
   }
 };
