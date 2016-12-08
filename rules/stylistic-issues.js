@@ -53,6 +53,7 @@ module.exports = {
     ],
     'max-depth': [2, 4],              // http://eslint.org/docs/rules/max-depth
     'max-len': [0, 80],               // http://eslint.org/docs/rules/max-len
+    'max-lines': [1, 500],            // http://eslint.org/docs/rules/max-len
     'max-nested-callbacks': [2, 3],   // http://eslint.org/docs/rules/max-nested-callbacks
     'max-params': [2, 3],             // http://eslint.org/docs/rules/max-params
     'max-statements': [0, 2],         // http://eslint.org/docs/rules/max-statements
