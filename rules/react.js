@@ -6,6 +6,7 @@ module.exports = {
     'react/display-name': 0,                               // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
     'react/forbid-component-props': 0,                     // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-component-props.md
     'react/forbid-prop-types': 0,                          // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
+    'react/no-children-prop': 2,                           // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-children-prop.md
     'react/no-danger': 1,                                  // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger.md
     'react/no-danger-with-children': 2,                    // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger-with-children.md
     'react/no-deprecated': 0,                              // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated.md
