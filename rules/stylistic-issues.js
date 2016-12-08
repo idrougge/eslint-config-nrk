@@ -45,6 +45,12 @@ module.exports = {
     'line-comment-position': 0,       // http://eslint.org/docs/rules/line-comment-position
     'linebreak-style': [2, 'unix'],   // http://eslint.org/docs/rules/linebreak-style
     'lines-around-comment': 0,        // http://eslint.org/docs/rules/lines-around-comment
+    'lines-around-directive': [       // http://eslint.org/docs/rules/lines-around-directive
+      'error', {
+        before: 'never',
+        after: 'always'
+      }
+    ],
     'max-depth': [2, 4],              // http://eslint.org/docs/rules/max-depth
     'max-len': [0, 80],               // http://eslint.org/docs/rules/max-len
     'max-nested-callbacks': [2, 3],   // http://eslint.org/docs/rules/max-nested-callbacks
