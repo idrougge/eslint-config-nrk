@@ -21,6 +21,7 @@ module.exports = {
     ],
     'react/no-render-return-value': 2,                     // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-render-return-value.md
     'react/no-set-state': 0,                               // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-set-state.md
+    'react/no-string-refs': 1,                             // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-string-refs.md
     'react/no-unescaped-entities': 2,                      // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unescaped-entities.md
     'react/no-unknown-property': 2,                        // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unknown-property.md
     'react/no-unused-prop-types': 0,                       // github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md
