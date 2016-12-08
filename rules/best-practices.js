@@ -65,6 +65,7 @@ module.exports = {
     'no-self-compare': 2,             // http://eslint.org/docs/rules/no-self-compare
     'no-sequences': 2,                // http://eslint.org/docs/rules/no-sequences
     'no-throw-literal': 2,            // http://eslint.org/docs/rules/no-throw-literal
+    'no-unmodified-loop-condition': 2, // http://eslint.org/docs/rules/no-unmodified-loop-condition
     'no-unused-expressions': [        // http://eslint.org/docs/rules/no-unused-expressions
       2, {
         allowShortCircuit: true,
