@@ -94,6 +94,7 @@ module.exports = {
     'no-whitespace-before-property': 2, // http://eslint.org/docs/rules/no-whitespace-before-property
     'object-curly-newline': 0,        // http://eslint.org/docs/rules/object-curly-newline
     'object-curly-spacing': 0,        // http://eslint.org/docs/rules/object-curly-spacing
+    'object-property-newline': 0,     // http://eslint.org/docs/rules/object-curly-spacing
     'one-var-declaration-per-line': 0, // http://eslint.org/docs/rules/one-var-declaration-per-line
     'one-var': 0,                     // http://eslint.org/docs/rules/one-var
     'operator-assignment': 0,         // http://eslint.org/docs/rules/operator-assignment
