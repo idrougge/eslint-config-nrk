@@ -60,6 +60,7 @@ module.exports = {
     'new-parens': 2,                  // http://eslint.org/docs/rules/new-parens
     'newline-after-var': 0,           // http://eslint.org/docs/rules/newline-after-var
     'newline-before-return': 0,       // http://eslint.org/docs/rules/newline-before-return
+    'newline-per-chained-call': 0,    // http://eslint.org/docs/rules/newline-per-chained-call
     'no-array-constructor': 2,        // http://eslint.org/docs/rules/no-array-constructor
     'no-bitwise': 2,                  // http://eslint.org/docs/rules/no-bitwise
     'no-continue': 2,                 // http://eslint.org/docs/rules/no-continue
