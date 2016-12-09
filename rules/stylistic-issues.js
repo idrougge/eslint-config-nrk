@@ -92,6 +92,7 @@ module.exports = {
     'no-underscore-dangle': 0,        // http://eslint.org/docs/rules/no-underscore-dangle
     'no-unneeded-ternary': 2,         // http://eslint.org/docs/rules/no-unneeded-ternary
     'no-whitespace-before-property': 2, // http://eslint.org/docs/rules/no-whitespace-before-property
+    'object-curly-newline': 0,        // http://eslint.org/docs/rules/object-curly-newline
     'object-curly-spacing': 0,        // http://eslint.org/docs/rules/object-curly-spacing
     'one-var-declaration-per-line': 0, // http://eslint.org/docs/rules/one-var-declaration-per-line
     'one-var': 0,                     // http://eslint.org/docs/rules/one-var
