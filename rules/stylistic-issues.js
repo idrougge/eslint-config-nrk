@@ -66,6 +66,7 @@ module.exports = {
     'no-continue': 2,                 // http://eslint.org/docs/rules/no-continue
     'no-inline-comments': 0,          // http://eslint.org/docs/rules/no-inline-comments
     'no-lonely-if': 2,                // http://eslint.org/docs/rules/no-lonely-if
+    'no-mixed-operators': 2,          // http://eslint.org/docs/rules/no-mixed-operators
     'no-mixed-spaces-and-tabs': [     // http://eslint.org/docs/rules/no-mixed-spaces-and-tabs
       2,
       'smart-tabs'
