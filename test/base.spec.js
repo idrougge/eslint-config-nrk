@@ -5,11 +5,11 @@ import path from 'path';
 import {assert} from 'chai';
 
 function keysStartWith (keys, str) {
-  return keys.filter((key) => key.indexOf(str) === 0).length === keys.length;
+  return keys.every((key) => key.indexOf(str) === 0);
 }
 
 function keysDoNotStartWith (keys, str) {
-  return keys.filter((key) => key.indexOf(str) === -1).length === keys.length;
+  return keys.every((key) => key.indexOf(str) === -1);
 }
 
 describe('eslint-config-nrk', () => {
