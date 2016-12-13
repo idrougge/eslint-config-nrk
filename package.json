@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nrk",
-  "version": "5.0.2-beta.0",
+  "version": "5.0.3-beta.0",
   "description": "A shared ESLint configuration for and by JavaScript developers at NRK.",
   "main": "base.js",
   "scripts": {
