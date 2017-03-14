@@ -24,10 +24,12 @@ module.exports = {
     'no-invalid-regexp': 2,           // http://eslint.org/docs/rules/no-invalid-regexp
     'no-irregular-whitespace': 2,     // http://eslint.org/docs/rules/no-irregular-whitespace
     'no-obj-calls': 2,                // http://eslint.org/docs/rules/no-obj-calls
+    'no-prototype-builtins': 1,       // http://eslint.org/docs/rules/no-prototype-builtins
     'no-regex-spaces': 2,             // http://eslint.org/docs/rules/no-regex-spaces
     'no-sparse-arrays': 2,            // http://eslint.org/docs/rules/no-sparse-arrays
     'no-template-curly-in-string': 2, // http://eslint.org/docs/rules/no-template-curly-in-string
     'no-unreachable': 2,              // http://eslint.org/docs/rules/no-unreachable
+    'no-unsafe-finally': 2,           // http://eslint.org/docs/rules/no-unsafe-finally
     'no-unsafe-negation': 2,          // http://eslint.org/docs/rules/no-unsafe-negation
     'use-isnan': 2,                   // http://eslint.org/docs/rules/use-isnan
     'valid-jsdoc': 2,                 // http://eslint.org/docs/rules/valid-jsdoc

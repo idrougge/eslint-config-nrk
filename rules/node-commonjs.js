@@ -9,6 +9,6 @@ module.exports = {
     'no-process-env': 1,
     'no-process-exit': 2,
     'no-restricted-modules': 0,
-    'no-sync': 2
+    'no-sync': 1
   }
 };

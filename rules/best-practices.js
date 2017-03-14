@@ -23,10 +23,12 @@ module.exports = {
 
     'no-empty-pattern': 2,            // http://eslint.org/docs/rules/no-empty-pattern
     'no-else-return': 2,              // http://eslint.org/docs/rules/no-else-return
+    'no-empty-function': 1,           // http://eslint.org/docs/rules/no-empty-function
     'no-eq-null': 2,                  // http://eslint.org/docs/rules/no-eq-null
     'no-eval': 2,                     // http://eslint.org/docs/rules/no-eval
     'no-extend-native': 2,            // http://eslint.org/docs/rules/no-extend-native
     'no-extra-bind': 2,               // http://eslint.org/docs/rules/no-extra-bind
+    'no-extra-label': 2,              // http://eslint.org/docs/rules/no-extra-label
     'no-fallthrough': 2,              // http://eslint.org/docs/rules/no-fallthrough
     'no-floating-decimal': 2,         // http://eslint.org/docs/rules/no-floating-decimal
     'no-global-assign': 2,            // http://eslint.org/docs/rules/no-global-assign
@@ -38,6 +40,7 @@ module.exports = {
         string: true
       }
     ],
+    'no-implicit-globals': 2,         // http://eslint.org/docs/rules/no-implicit-globals
     'no-implied-eval': 2,             // http://eslint.org/docs/rules/no-implied-eval
     'no-iterator': 2,                 // http://eslint.org/docs/rules/no-iterator
     'no-labels': 2,                   // http://eslint.org/docs/rules/no-labels
@@ -56,6 +59,7 @@ module.exports = {
     'no-proto': 2,                    // http://eslint.org/docs/rules/no-proto
     'no-redeclare': 2,                // http://eslint.org/docs/rules/no-redeclare
     'no-return-assign': 2,            // http://eslint.org/docs/rules/no-return-assign
+    'no-return-await': 2,             // http://eslint.org/docs/rules/no-return-await
     'no-script-url': 2,               // http://eslint.org/docs/rules/no-script-url
     'no-self-assign': 2,              // http://eslint.org/docs/rules/no-self-assign
     'no-self-compare': 2,             // http://eslint.org/docs/rules/no-self-compare
@@ -71,10 +75,12 @@ module.exports = {
     'no-useless-call': 2,             // http://eslint.org/docs/rules/no-useless-call
     'no-useless-concat': 2,           // http://eslint.org/docs/rules/no-useless-concat
     'no-useless-escape': 2,           // http://eslint.org/docs/rules/no-useless-escape
+    'no-useless-return': 2,           // http://eslint.org/docs/rules/no-useless-return
     'no-void': 2,                     // http://eslint.org/docs/rules/no-void
     'no-warning-comments': 2,         // http://eslint.org/docs/rules/no-warning-comments
     'no-with': 2,                     // http://eslint.org/docs/rules/no-with
     radix: 2,                         // http://eslint.org/docs/rules/radix
+    'require-await': 2,               // http://eslint.org/docs/rules/require-await
     'vars-on-top': 0,                 // http://eslint.org/docs/rules/vars-on-top
     'wrap-iife': [2, 'any'],          // http://eslint.org/docs/rules/wrap-iife
     yoda: 2,                          // http://eslint.org/docs/rules/yoda
