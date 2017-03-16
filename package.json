@@ -7,8 +7,8 @@
     "autotest": "npm test -- --watch",
     "coveralls": "npm run test-travis -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
     "lint": "eslint .",
-    "test": "mocha --require babel-register test/**/*.spec.js",
-    "test-travis": "istanbul cover _mocha -- --require babel-register -R spec ./test/**/*.spec.js",
+    "test": "mocha test/**/*.spec.js",
+    "test-travis": "istanbul cover _mocha -- -R spec ./test/**/*.spec.js",
     "diff": "node ./bin/diff.js && echo '\nnpm update eslint to get latest rules'"
   },
   "pre-commit": [
@@ -29,8 +29,6 @@
     "eslint": "^3.11.1"
   },
   "devDependencies": {
-    "babel-preset-es2015": "^6.18.0",
-    "babel-register": "^6.18.0",
     "chai": "3.5.0",
     "coveralls": "^2.11.15",
     "eslint": "^3.11.1",
