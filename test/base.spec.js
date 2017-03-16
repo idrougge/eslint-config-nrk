@@ -2,7 +2,7 @@
 /* eslint-disable no-sync, global-require */
 const fs = require('fs');
 const path = require('path');
-const {assert} = require('chai');
+const assert = require('chai').assert;
 
 function keysStartWith (keys, str) {
   return keys.every((key) => key.indexOf(str) === 0);
