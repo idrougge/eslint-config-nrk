@@ -4,10 +4,10 @@ A shared [ESLint](http://eslint.org/) configuration for and by JavaScript develo
 
 ## Installation
 
-Get started by running this command in the root of your project:
+Get started by running this command in the root of your project (`npm` is also supported):
 
 ```sh
-npm install --save-dev eslint eslint-config-nrk
+yarn add eslint eslint-config-nrk --dev
 ```
 
 Then add an `.eslintrc.json` file to the root of your project (see *Documentation* below) before running the `eslint` command, with the following:
@@ -62,7 +62,7 @@ For supporting React projects, also add the `nrk/rules/react` extension:
 Then install [`eslint-plugin-react`](https://github.com/yannickcr/eslint-plugin-react):
 
 ```sh
-npm install --save-dev eslint-plugin-react
+yarn add eslint-plugin-react --dev
 ```
 
 #### JSX
