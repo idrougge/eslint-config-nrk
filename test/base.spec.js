@@ -1,8 +1,8 @@
 /* global describe, it */
 /* eslint-disable no-sync, global-require */
-import fs from 'fs';
-import path from 'path';
-import {assert} from 'chai';
+const fs = require('fs');
+const path = require('path');
+const assert = require('chai').assert;
 
 function keysStartWith (keys, str) {
   return keys.every((key) => key.indexOf(str) === 0);
