@@ -47,6 +47,13 @@ module.exports = {
     'lines-around-comment': 0,        // http://eslint.org/docs/rules/lines-around-comment
     'max-depth': [2, 4],              // http://eslint.org/docs/rules/max-depth
     'max-len': [0, 80],               // http://eslint.org/docs/rules/max-len
+    'max-lines': [                    // http://eslint.org/docs/rules/max-lines
+      1, {
+        max: 500,
+        skipBlankLines: false,
+        skipComments: false
+      }
+    ],
     'max-nested-callbacks': [2, 3],   // http://eslint.org/docs/rules/max-nested-callbacks
     'max-params': [2, 3],             // http://eslint.org/docs/rules/max-params
     'max-statements': [0, 2],         // http://eslint.org/docs/rules/max-statements
