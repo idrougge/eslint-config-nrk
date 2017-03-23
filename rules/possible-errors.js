@@ -32,7 +32,11 @@ module.exports = {
     'no-unsafe-finally': 2,           // http://eslint.org/docs/rules/no-unsafe-finally
     'no-unsafe-negation': 2,          // http://eslint.org/docs/rules/no-unsafe-negation
     'use-isnan': 2,                   // http://eslint.org/docs/rules/use-isnan
-    'valid-jsdoc': 2,                 // http://eslint.org/docs/rules/valid-jsdoc
+    'valid-jsdoc': [1, {              // http://eslint.org/docs/rules/valid-jsdoc
+      "requireParamDescription": false,
+      "requireReturnDescription": false,
+      "requireReturn": false
+    }],
     'valid-typeof': 2,                // http://eslint.org/docs/rules/valid-typeof
     'no-unexpected-multiline': 2,     // http://eslint.org/docs/rules/no-unexpected-multiline
   }
