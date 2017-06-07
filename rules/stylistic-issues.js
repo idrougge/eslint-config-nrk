@@ -38,7 +38,8 @@ module.exports = {
     'key-spacing': [                  // http://eslint.org/docs/rules/key-spacing
       2, {
         beforeColon: false,
-        afterColon: true
+        afterColon: true,
+        mode: 'minimum'
       }
     ],
     'keyword-spacing': 0,             // http://eslint.org/docs/rules/keyword-spacing
